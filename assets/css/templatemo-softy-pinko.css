@@ -1269,6 +1269,24 @@ parallax & home seperator
 .back ul li {
   list-style: circle !important;
 }
+@media(max-width:768px){
+.cards {
+width: 100% !important;
+margin: 30px auto;
+position: relative;  transform-origin: center center;
+
+}
+.cards .content{
+  left: 50%;
+  transform: translateX(-50%);
+    transform-origin: center center;
+}
+.cards:hover .content {
+  left: 50%;
+    transform: translateX(-50%)  rotateY(180deg);
+  transition: transform 0.5s;
+}
+}
 /* End our-service */
 
 /* Start Recruitment requirements */
@@ -1549,6 +1567,10 @@ color: #58ABC8 !important;
   height:100%;
   transition: 0.3s;
 }
+.btn-link{
+  font-size: 14px;
+  padding-left: 0;
+}
 }
 /* End company */
 /* Start social-icons */
@@ -1737,6 +1759,10 @@ a {
     }
     .phone{
       color: #537FE7 !important;
+      
+    }
+    .phone > svg{
+transform: rotate(333deg);
     }
     .twitter{
       color: #00acee !important;
