@@ -1982,20 +1982,22 @@ footer .social li {
 }
 footer .social li p{
   padding-right: 15px;
+  color: #DBB98D !important;
 }
 .footer-social-link{
   text-align: right;
   color: #DBB98D;
 }
 footer .social li a {
-  color: #9d5bd9;
   text-align: center;
   background-color: #fff;
   width: 36px;
   height: 36px;
   line-height: 36px;
   border-radius: 50%;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 16px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
