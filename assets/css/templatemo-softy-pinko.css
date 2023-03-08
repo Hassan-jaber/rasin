@@ -144,6 +144,7 @@ body {
   font-weight: 400;
   background-color: #fff;
   font-size: 16px;
+  overflow: hidden;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -698,13 +699,12 @@ welcome
 --------------------------------------------- 
 */
 .welcome-area {
-  /* overflow: hidden; */
   position: relative;
   /* display: flex;
   align-items: center;
   justify-content: center; */
-  background-color: #414D35;
-  background-image: url(../images/bg-header-resize.jpg);
+  background-color: #46523A;
+  background-image: url(../images/h.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
@@ -819,6 +819,11 @@ welcome
   }
   .rasin-office{
     top: calc(100vh - 148px);
+  }
+}
+@media(max-width:576px){
+  .welcome-area{
+        height: 60vh;
   }
 }
 
