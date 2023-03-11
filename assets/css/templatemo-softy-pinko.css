@@ -501,7 +501,7 @@ header
 .header-area .main-nav .nav li a {
   display: block;
   font-weight: 500;
-  font-size: 13px;
+  font-size: 15px;
   color: #fff;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -2194,6 +2194,9 @@ input[type=submit]:hover {
 input[type=submit]{
   width: 110px;
   margin: 0 auto;
+}
+input[type=submit]:hover{
+  background-color: #47533B;
 }
 .form-contact-container {
   border-radius: 5px;
