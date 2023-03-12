@@ -2267,7 +2267,8 @@ margin-bottom: 15px;
 .collapse-three-btn,
 .collapse-btn-two,
 .collapse-nine-btn,
-.collapse-eight-btn {
+.collapse-eight-btn,
+.collapse-eleven-btn {
   width: 200px;
   height: 40px;
   display: flex;
@@ -2284,7 +2285,7 @@ margin-bottom: 15px;
 .collapse-nine-btn:hover,
 .musaned-btns > :first-child:hover,
 .musaned-btns > :nth-child(2):hover,
-.collapse-eight-btn:hover {
+.collapse-eight-btn:hover,.collapse-eleven-btn:hover {
   color: #dbb98d;
 }
 .collapse-three-btn {
