@@ -1326,7 +1326,7 @@ parallax & home seperator
 }
 @media (max-width: 768px) {
   .cards {
-    width: 100% !important;
+    width: 100%;
     margin: 30px auto;
     position: relative;
     transform-origin: center center;
