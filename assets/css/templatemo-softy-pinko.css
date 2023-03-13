@@ -136,6 +136,8 @@ hgroup {
 
 * {
   box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box; 
 }
 
 @font-face {
@@ -1241,7 +1243,8 @@ parallax & home seperator
   height: 300px;
   border: none;
   perspective: 500px;
-  margin-bottom: 200px;
+  /* margin-bottom: 200px; */
+  margin: 0 auto 200px auto;
 }
 .our-services .cards {
   margin-bottom: 200px;
@@ -1267,6 +1270,7 @@ parallax & home seperator
   transition: transform 1s;
   transform-style: preserve-3d;
 }
+
 .content {
   position: absolute;
   width: 260px;
@@ -1342,6 +1346,10 @@ parallax & home seperator
   .content {
     width: 225px;
   }
+}
+.card-services .cards .card-services-content{
+    width: 260px;
+    min-height: 430px;
 }
 /* End our-service */
 
