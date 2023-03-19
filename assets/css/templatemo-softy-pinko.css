@@ -2041,9 +2041,8 @@ footer .social li {
 }
 footer .social li p {
   padding-right: 15px;
-  color: #dbb98d !important;
 }
-.footer-social-link {
+.footer-title{
   text-align: right;
   color: #dbb98d;
 }
@@ -2061,7 +2060,7 @@ footer .social li>:first-child  {
 
 footer .social li>:first-child:hover {
   background-color: #dbb98d;
-  color: #fff;
+  /* color: #fff; */
 }
 
 footer .copyright {
