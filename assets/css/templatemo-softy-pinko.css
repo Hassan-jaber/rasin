@@ -2048,20 +2048,13 @@ footer .social li p {
   color: #dbb98d;
 }
 footer .social li a {
-  text-align: center;
   background-color: #fff;
   width: 36px;
   height: 36px;
-  line-height: 36px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 16px;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
 }
 
 footer .social li a:hover {
