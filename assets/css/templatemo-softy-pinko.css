@@ -1429,7 +1429,7 @@ parallax & home seperator
   position: absolute;
   width: 150px;
   height: 100%;
-  background: #a19a3e;
+  background: #DBDAD6;
   transition: width 0.4s;
   overflow: hidden;
   z-index: 2;
@@ -2047,7 +2047,7 @@ footer .social li p {
   text-align: right;
   color: #dbb98d;
 }
-footer .social li a {
+footer .social li>:first-child  {
   background-color: #fff;
   width: 36px;
   height: 36px;
@@ -2055,9 +2055,11 @@ footer .social li a {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+  overflow: hidden;
 }
 
-footer .social li a:hover {
+footer .social li>:first-child:hover {
   background-color: #dbb98d;
   color: #fff;
 }
