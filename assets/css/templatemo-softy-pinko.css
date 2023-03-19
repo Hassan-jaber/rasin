@@ -2027,42 +2027,30 @@ footer {
   background: #4f5b44;
   padding-top: 30px;
 }
-
-footer .social {
-  overflow: hidden;
-  margin-top: 10px;
-  text-align: center;
-}
-
-footer .social li {
-  margin: 20px 10px;
-  display: flex;
-  align-items: center;
-}
-footer .social li p {
-  padding-right: 15px;
-}
 .footer-title{
   text-align: right;
   color: #dbb98d;
+  margin-bottom: 30px;
 }
-footer .social li>:first-child  {
-  background-color: #fff;
+.social-ul li{
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+.social-ul li>:last-child{
+  padding-right: 15px;
+  margin-bottom: 0;
+  color: #dbb98d;
+}
+.social-ul li>:first-child{
   width: 36px;
   height: 36px;
   border-radius: 50%;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
-  overflow: hidden;
 }
-
-footer .social li>:first-child:hover {
-  background-color: #dbb98d;
-  /* color: #fff; */
-}
-
 footer .copyright {
   text-align: center;
   border-top: 1px solid rgba(250, 250, 250, 0.2);
