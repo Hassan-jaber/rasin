@@ -377,7 +377,7 @@ body {
   }
 }
 
-a.main-button-slider {
+/* a.main-button-slider {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
@@ -429,7 +429,7 @@ button.main-button {
 
 button.main-button:hover {
   background-color: #ff589e;
-}
+} */
 
 /* 
 ---------------------------------------------
@@ -1829,24 +1829,6 @@ h2 {
   animation: 1.5s linear 0s normal none infinite focuse;
 }
 
-.whatsapp {
-  color: #25d366 !important;
-}
-.phone {
-  color: #537fe7 !important;
-}
-.phone > svg {
-  transform: rotate(333deg);
-}
-.twitter {
-  color: #00acee !important;
-}
-.instagram {
-  color: #c13584 !important;
-}
-.snapchat {
-  color: #f7f400 !important;
-}
 @keyframes focuse {
   0% {
     transform: scale(0.8);
