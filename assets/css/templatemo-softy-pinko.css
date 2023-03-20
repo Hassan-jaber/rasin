@@ -2330,7 +2330,7 @@ margin-bottom: 15px;
 }
 .li-footet>:last-child{
   padding-right: 15px;
-  color: #dbb98d;
+  color: #dbb98d !important;
 }
 .copy-r{
     text-align: center;
@@ -2342,4 +2342,26 @@ margin-bottom: 15px;
     font-size: 12px;
     color: #fff;
     text-transform: uppercase;
+}
+.w-btn {
+position: relative;
+width: 35px;
+height: 35px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.w-btn svg{
+  position: absolute !important;
+  color: #45a049;
+  font-size: 19px;
+  pointer-events: none;
+}
+.w-btn input{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  background-color: white;
 }
